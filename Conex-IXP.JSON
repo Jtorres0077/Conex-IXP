@@ -1,230 +1,307 @@
 {
     "version": "1.0",
-    "timestamp": "2024-09-30T16:11:39Z",
+    "generator": "IXP Manager v6.4.1",
+    "timestamp": "2024-10-22T14:15:54Z",
     "ixp_list": [
-      {
-        "ixf_id": 1406,
-        "ixp_id": 1406,
-        "shortname": "Conex - IXP",
-        "name": "Conex Internet Exchange",
-        "url": "https://www.conex-ixp.net",
-        "country": "PE"
-      }
+        {
+            "shortname": "Conex - IXP",
+            "name": "Conex Internet Exchange",
+            "country": "PE",
+            "url": "https://www.conex-ixp.net",
+            "peeringdb_id": 1406,
+            "ixf_id": 1406,
+            "ixp_id": 1406,
+            "support_email": "speering@conex-ixp.net",
+            "support_phone": "+51 17483742",
+            "support_contact_hours": "24x7",
+            "emergency_email": "ingenieria@conex-ixp.net",
+            "emergency_phone": "+51 17483742",
+            "emergency_contact_hours": "24x7",
+            "billing_contact_hours": "8x5",
+            "billing_email": "ingenieria@conex-ixp.net",
+            "billing_phone": "+51 17483742",
+            "peering_policy_list": [
+                "open",
+                "selective",
+                "mandatory",
+                "closed"
+            ],
+            "vlan": []
+        }
     ],
     "member_list": [
-      {
-        "asnum": 269938,
-        "member_type": "peering",
-        "name": "ADN Telecom",
-        "peering_policy": "Open",
-        "connection_list": [
-          {
-            "ixp_id": 1406,
-            "vlan_list": [
-              {
-                "vlan_id": 1,
-                "ipv4": {
-                  "address": "190.83.60.0/24"
+        {
+            "asnum": 269938,
+            "name": "ADN Telecom",
+            "peering_policy": "Open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1406,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 55,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv4": {
+                                "address": "190.83.60.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 2,
+                            "ipv4": {
+                                "address": "190.83.61.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 3,
+                            "ipv4": {
+                                "address": "209.45.18.0/24"
+                            },
+                            "ipv6": {
+                                "address": "2803:6ae0::/32"
+                            }
+                        }
+                    ]
                 }
-              },
-              {
-                "vlan_id": 2,
-                "ipv4": {
-                  "address": "190.83.61.0/24"
-                }
-              },
-              {
-                "vlan_id": 3,
-                "ipv4": {
-                  "address": "209.45.18.0/24"
-                },
-                "ipv6": {
-                  "address": "2803:6ae0::/32"
-                }
-              }
             ]
-          }
-        ]
-      },
-      {
-        "asnum": 271842,
-        "member_type": "peering",
-        "name": "WASI",
-        "peering_policy": "Open",
-        "connection_list": [
-          {
-            "ixp_id": 1406,
-            "vlan_list": [
-              {
-                "vlan_id": 1,
-                "ipv4": {
-                  "address": "168.194.170.0/24"
+        },
+        {
+            "asnum": 271842,
+            "name": "WASI",
+            "peering_policy": "Open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1406,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 55,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv4": {
+                                "address": "168.194.170.0/24"
+                            },
+                            "ipv6": {}
+                        }
+                    ]
                 }
-              }
             ]
-          }
-        ]
-      },
-      {
-        "asnum": 269862,
-        "member_type": "peering",
-        "name": "Net Fiber",
-        "peering_policy": "Open",
-        "connection_list": [
-          {
-            "ixp_id": 1406,
-            "vlan_list": [
-              {
-                "vlan_id": 1,
-                "ipv4": {
-                  "address": "201.218.156.0/24"
+        },
+        {
+            "asnum": 269862,
+            "name": "Net Fiber",
+            "peering_policy": "Open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1406,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 55,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv4": {
+                                "address": "201.218.156.0/24"
+                            },
+                            "ipv6": {}
+                        }
+                    ]
                 }
-              }
             ]
-          }
-        ]
-      },
-      {
-        "asnum": 269857,
-        "member_type": "peering",
-        "name": "FiberDigital",
-        "peering_policy": "Open",
-        "connection_list": [
-          {
-            "ixp_id": 1406,
-            "vlan_list": [
-              {
-                "vlan_id": 1,
-                "ipv4": {
-                  "address": "45.189.118.0/24"
-                },
-                "ipv6": {
-                  "address": "2803:50e0::/32"
+        },
+        {
+            "asnum": 269857,
+            "name": "FiberDigital",
+            "peering_policy": "Open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1406,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 55,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv4": {
+                                "address": "45.189.118.0/24"
+                            },
+                            "ipv6": {
+                                "address": "2803:50e0::/32"
+                            }
+                        },
+                        {
+                            "vlan_id": 2,
+                            "ipv4": {},
+                            "ipv6": {
+                                "address": "2803:9510::/32"
+                            }
+                        }
+                    ]
                 }
-              },
-              {
-                "vlan_id": 2,
-                "ipv6": {
-                  "address": "2803:9510::/32"
-                }
-              }
             ]
-          }
-        ]
-      },
-      {
-        "asnum": 269898,
-        "member_type": "peering",
-        "name": "Speed Max",
-        "peering_policy": "Open",
-        "connection_list": [
-          {
-            "ixp_id": 1406,
-            "vlan_list": [
-              {
-                "vlan_id": 1,
-                "ipv4": {
-                  "address": "38.43.108.0/24"
+        },
+        {
+            "asnum": 269898,
+            "name": "Speed Max",
+            "peering_policy": "Open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1406,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 55,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv4": {
+                                "address": "38.43.108.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 2,
+                            "ipv4": {
+                                "address": "38.43.109.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 3,
+                            "ipv4": {
+                                "address": "38.43.110.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 4,
+                            "ipv4": {
+                                "address": "38.56.212.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 5,
+                            "ipv4": {
+                                "address": "45.171.164.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 6,
+                            "ipv4": {
+                                "address": "45.171.165.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 7,
+                            "ipv4": {
+                                "address": "45.183.106.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 8,
+                            "ipv4": {
+                                "address": "45.190.170.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 9,
+                            "ipv4": {
+                                "address": "45.191.196.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 10,
+                            "ipv4": {
+                                "address": "45.191.197.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 11,
+                            "ipv4": {
+                                "address": "45.191.198.0/24"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 12,
+                            "ipv4": {
+                                "address": "45.191.199.0/24"
+                            },
+                            "ipv6": {
+                                "address": "2803:34e0::/32"
+                            }
+                        }
+                    ]
                 }
-              },
-              {
-                "vlan_id": 2,
-                "ipv4": {
-                  "address": "38.43.109.0/24"
-                }
-              },
-              {
-                "vlan_id": 3,
-                "ipv4": {
-                  "address": "38.43.110.0/24"
-                }
-              },
-              {
-                "vlan_id": 4,
-                "ipv4": {
-                  "address": "38.56.212.0/24"
-                }
-              },
-              {
-                "vlan_id": 5,
-                "ipv4": {
-                  "address": "45.171.164.0/24"
-                }
-              },
-              {
-                "vlan_id": 6,
-                "ipv4": {
-                  "address": "45.171.165.0/24"
-                }
-              },
-              {
-                "vlan_id": 7,
-                "ipv4": {
-                  "address": "45.183.106.0/24"
-                }
-              },
-              {
-                "vlan_id": 8,
-                "ipv4": {
-                  "address": "45.190.170.0/24"
-                }
-              },
-              {
-                "vlan_id": 9,
-                "ipv4": {
-                  "address": "45.191.196.0/24"
-                }
-              },
-              {
-                "vlan_id": 10,
-                "ipv4": {
-                  "address": "45.191.197.0/24"
-                }
-              },
-              {
-                "vlan_id": 11,
-                "ipv4": {
-                  "address": "45.191.198.0/24"
-                }
-              },
-              {
-                "vlan_id": 12,
-                "ipv4": {
-                  "address": "45.191.199.0/24"
-                },
-                "ipv6": {
-                  "address": "2803:34e0::/32"
-                }
-              }
             ]
-          }
-        ]
-      },
-      {
-        "asnum": 3132,
-        "member_type": "peering",
-        "name": "RCP",
-        "peering_policy": "Open",
-        "connection_list": [
-          {
-            "ixp_id": 1406,
-            "vlan_list": [
-              {
-                "vlan_id": 1,
-                "ipv4": {
-                  "address": "161.132.0.0/16"
+        },
+        {
+            "asnum": 3132,
+            "name": "RCP",
+            "peering_policy": "Open",
+            "member_type": "peering",
+            "connection_list": [
+                {
+                    "ixp_id": 1406,
+                    "state": "active",
+                    "if_list": [
+                        {
+                            "switch_id": 55,
+                            "if_speed": 10000
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 1,
+                            "ipv4": {
+                                "address": "161.132.0.0/16"
+                            },
+                            "ipv6": {}
+                        },
+                        {
+                            "vlan_id": 2,
+                            "ipv4": {
+                                "address": "209.45.0.0/17"
+                            },
+                            "ipv6": {}
+                        }
+                    ]
                 }
-              },
-              {
-                "vlan_id": 2,
-                "ipv4": {
-                  "address": "209.45.0.0/17"
-                }
-              }
             ]
-          }
-        ]
-      }
+        }
     ]
-  }
-  
+}
